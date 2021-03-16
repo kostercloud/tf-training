@@ -24,6 +24,7 @@ resource "aws_instance" "web" {
     "Identity"    = var.identity
     "Name"        = "Student"
     "Environment" = "Training"
+    "Test"        = "yes"
   }
 }
 
